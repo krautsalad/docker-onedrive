@@ -1,3 +1,3 @@
 #!/bin/sh
 set -ex
-docker build --no-cache --progress=plain -t registry.krautsalad.com/docker-onedrive -f Dockerfile .
+docker build --no-cache --progress=plain -t krautsalad/onedrive:latest -f Dockerfile .
